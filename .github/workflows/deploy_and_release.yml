@@ -29,7 +29,7 @@ jobs:
         run: >
           cicd-pipeline-utils/scripts/bot.sh deploy 
           -version "1.2" 
-          -botFile ".\BotYoutube.zip" 
+          -botFile "BotYoutube.zip" 
           -botId "050326bot-yotube" 
           -type "python" 
           -repository "live"
